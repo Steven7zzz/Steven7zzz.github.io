@@ -87,3 +87,70 @@ body {
     margin-top: 10px;
   }
   
+/* ...existing code... */
+
+/* Section 1: About styling */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Section 2: Media hierarchy styling */
+.media-hierarchy {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.media-hierarchy ul {
+  list-style-type: circle;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.media-hierarchy ul ul {
+  list-style-type: square;
+}
+
+.media-hierarchy ul ul ul {
+  list-style-type: disc;
+}
+
+.media-hierarchy li {
+  margin: 8px 0;
+}
+
+/* Section 3: Challenges styling */
+#challenges h3 {
+  color: #2c3e50;
+  margin-top: 1rem;
+}
+
+#challenges h4 {
+  color: #34495e;
+  margin-top: 1.5rem;
+}
+
+#challenges ul {
+  padding-left: 20px;
+}
+
+#challenges li {
+  margin: 10px 0;
+}
+
+/* ...existing code... */
